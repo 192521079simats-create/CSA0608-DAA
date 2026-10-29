@@ -1,0 +1,23 @@
+START
+INPUT list of points
+
+minimum_distance = infinity
+closest_pair = empty
+calculations = 0
+
+FOR i = 0 TO n-2
+    FOR j = i+1 TO n-1
+        CALCULATE distance between points[i] and points[j]
+        calculations = calculations + 1
+
+        IF distance < minimum_distance
+            minimum_distance = distance
+            closest_pair = points[i], points[j]
+        END IF
+    END FOR
+END FOR
+
+PRINT closest_pair
+PRINT minimum_distance
+PRINT calculations
+STOP
