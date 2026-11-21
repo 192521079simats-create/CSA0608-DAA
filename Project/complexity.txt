@@ -1,0 +1,23 @@
+EVENTSPHERE X - ALGORITHM COMPLEXITY
+
+1. Greedy Algorithm
+   Time Complexity: O(n log n)
+   Space Complexity: O(n)
+
+2. Dynamic Programming
+   Time Complexity: O(n²)
+   Space Complexity: O(n)
+
+3. Brute Force Algorithm
+   Time Complexity: O(2^n)
+   Space Complexity: O(n)
+
+4. Backtracking Algorithm
+   Time Complexity: Exponential
+   Space Complexity: O(n)
+
+CONCLUSION:
+Greedy and Dynamic Programming are more efficient
+for larger inputs than exhaustive search methods.
+Brute Force and Backtracking may require more time
+as the number of events increases.

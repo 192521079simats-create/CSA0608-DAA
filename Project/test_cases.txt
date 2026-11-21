@@ -1,0 +1,31 @@
+EVENTSPHERE X - TEST CASES AND VALIDATION
+
+Test Case 1: Normal Event Scheduling
+Input: 5 events
+Expected Result: Events should be scheduled without conflicts.
+Status: Tested
+
+Test Case 2: Small Dataset
+Input: 5 events
+Expected Result: Algorithms should execute successfully.
+Status: Tested
+
+Test Case 3: Medium Dataset
+Input: 50 events
+Expected Result: Performance should be measured.
+Status: Tested
+
+Test Case 4: Large Dataset
+Input: 500 events
+Expected Result: Greedy, Dynamic Programming and Merge Sort should execute.
+Status: Tested
+
+Test Case 5: Event Sorting
+Input: Events with different starting times
+Expected Result: Merge Sort should arrange events by starting time.
+Status: Tested
+
+Test Case 6: Algorithm Performance
+Input: Different dataset sizes
+Expected Result: Execution time should be displayed.
+Status: Tested

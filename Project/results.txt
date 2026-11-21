@@ -1,0 +1,28 @@
+EVENTSPHERE X - PERFORMANCE RESULTS
+
+1. Greedy Algorithm: 0.000351 seconds
+2. Dynamic Programming: 0.000046 seconds
+3. Brute Force: 0.000293 seconds
+4. Backtracking: 0.000482 seconds
+Conclusion:
+All four algorithms were executed successfully.
+Dynamic Programming recorded the lowest execution time
+for this test dataset.
+Backtracking recorded the highest execution time.
+CONCLUSION:
+
+The performance testing was conducted using
+5, 50 and 500 events.
+
+Dynamic Programming showed the lowest execution
+time in these tests.
+
+Greedy Algorithm execution time increased as
+the dataset size increased.
+
+Brute Force and Backtracking were tested using
+the small dataset.
+
+The experiment demonstrates the importance
+of selecting efficient algorithms for larger
+event scheduling problems.

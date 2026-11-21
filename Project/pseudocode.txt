@@ -1,0 +1,64 @@
+EVENTSPHERE X - ALGORITHM PSEUDOCODE
+
+1. GREEDY ALGORITHM
+
+START
+1. Read all events and available venues.
+2. Sort events by finishing time.
+3. Select the earliest finishing compatible event.
+4. Check venue capacity and facilities.
+5. Assign a suitable venue.
+6. Repeat until all events are checked.
+7. Display the selected schedule.
+STOP
+
+
+2. DYNAMIC PROGRAMMING
+
+START
+1. Read all events.
+2. Sort events by finishing time.
+3. Calculate the previous compatible event for each event.
+4. Initialize the DP table.
+5. Calculate the maximum reward for each event.
+6. Select the optimal combination.
+7. Display the result.
+STOP
+
+
+3. BRUTE FORCE ALGORITHM
+
+START
+1. Read all events.
+2. Generate all possible event combinations.
+3. Check each combination for time conflicts.
+4. Calculate the total reward of valid combinations.
+5. Find the combination with maximum reward.
+6. Display the selected events.
+STOP
+
+
+4. BACKTRACKING ALGORITHM
+
+START
+1. Read events and venues.
+2. Start with an empty schedule.
+3. Select an event.
+4. Try assigning it to a suitable venue.
+5. Check time, capacity and facility constraints.
+6. If valid, continue with the next event.
+7. Otherwise, backtrack and try another assignment.
+8. Display the best valid schedule.
+STOP
+
+
+5. MERGE SORT
+
+START
+1. Read the list of events.
+2. If the list has zero or one element, return it.
+3. Divide the list into two halves.
+4. Recursively sort both halves.
+5. Merge the sorted halves based on starting time.
+6. Return the sorted list.
+STOP
